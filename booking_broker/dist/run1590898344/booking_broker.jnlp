@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="booking_broker.jnlp">
+  <information>
+    <title>booking_broker</title>
+    <vendor>obaid92</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="booking_broker.jar" size="20475" download="eager" />
+    <jar href="lib/activemq-broker-5.13.2.jar" size="1150311" download="eager" />
+    <jar href="lib/activemq-client-5.13.2.jar" size="1298480" download="eager" />
+    <jar href="lib/activemq-console-5.13.2.jar" size="194874" download="eager" />
+    <jar href="lib/activemq-jaas-5.13.2.jar" size="37356" download="eager" />
+    <jar href="lib/activemq-kahadb-store-5.13.2.jar" size="638254" download="eager" />
+    <jar href="lib/activemq-openwire-legacy-5.13.2.jar" size="685456" download="eager" />
+    <jar href="lib/activemq-protobuf-1.1.jar" size="147874" download="eager" />
+    <jar href="lib/activemq-spring-5.13.2.jar" size="168572" download="eager" />
+    <jar href="lib/activemq-web-5.13.2.jar" size="115714" download="eager" />
+    <jar href="lib/booking_client_model.jar" size="6319" download="eager" />
+    <jar href="lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" size="20220" download="eager" />
+    <jar href="lib/geronimo-jms_1.1_spec-1.1.1.jar" size="32359" download="eager" />
+    <jar href="lib/geronimo-jta_1.0.1B_spec-1.0.1.jar" size="14637" download="eager" />
+    <jar href="lib/gson-2.2.2.jar" size="189285" download="eager" />
+    <jar href="lib/hawtbuf-1.11.jar" size="50155" download="eager" />
+    <jar href="lib/jcl-over-slf4j-1.7.13.jar" size="16430" download="eager" />
+    <jar href="lib/okhttp-2.5.0.jar" size="317886" download="eager" />
+    <jar href="lib/okio-1.8.0.jar" size="72016" download="eager" />
+    <jar href="lib/slf4j-api-1.7.13.jar" size="33088" download="eager" />
+    <jar href="lib/slf4j-nop-1.7.21.jar" size="4007" download="eager" />
+    <jar href="lib/travel_agency_model.jar" size="3803" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="booking_broker" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="bookin_broker.BookingBroker"  name="booking_broker" />
+  <update check="always"/>
+</jnlp>
